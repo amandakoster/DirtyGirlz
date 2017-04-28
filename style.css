@@ -37,6 +37,20 @@ hr {
   border-top: #ffeb3b;
 }
 
+#calculator
+{
+    width:250px;
+    height:250px;
+    background-color:orange;
+}
+
+#result
+{
+    width:220px;
+    height:20px;
+    background-color: yellow;
+}
+
 .foot-contact {
   display: inline-block;
   margin-left: 3%;
