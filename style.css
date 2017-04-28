@@ -33,26 +33,26 @@ p {
   margin: 3%;
 }
 
-.calendly-inline-widget {
+/*.calendly-inline-widget {
   position: relative;
   height:500px;
   display: inline-block;
-}
+}*/
 
 hr {
   border-top: dashed
   border-top: #ffeb3b;
 }
 
-#calculator {
+form {
   display: block;
-    width:250px;
-    height:250px;
-    border:black;
+  width:250px;
+  height:250px;
+  border: black;
+  padding-top: 500px;
 }
 
-#result
-{
+#result {
     width:220px;
     height:20px;
     background-color: yellow;
