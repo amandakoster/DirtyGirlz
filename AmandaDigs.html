@@ -4,7 +4,8 @@
 	<meta charset="utf-8">
 	<link href="style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
-		<title>DIRTY GIRLZ GARDENING PNW</title>
+	<link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
+	<title>DIRTY GIRLZ GARDENING PNW</title>
 </head>
 <body>
 	<a href="style.css"></a>
@@ -35,6 +36,7 @@
 		    </div>
 		  </div>
 		</div>
+
 		<h1>DIRTY GIRLZ GARDENING PNW</h1>
 	</header>
 
@@ -45,27 +47,35 @@
 		<br>
 		I adopted the 95th/Fremont round-about for fun and trully love to garden. Also, I love Greenwood and am excited to help make it beautiful as I learn to code!<br>
 		<br> You can book us below using the Calendly tool:</p>
+		<div>
+			Total cost: <div id="total"></div>
+	 </div>
 	</div>
 	<!-- Calendly badge widget begin -->
-<div class = "calendly-link">
-	<link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>
-<script type="text/javascript">Calendly.initBadgeWidget({url: 'https://calendly.com/dirtygirlz', text: 'Schedule time with us', color: '#ffffff', branding: false});</script>
-<!-- Calendly badge widget end -->
-</div>
-  <footer class ="foot-contact"> <a href="mailto:dirtygirlz.pnw@gmail.com">Email Dirty Girlz</footer>
-  <!-- calculator begin -->
 
-	<div id=calculator>
-	    <br>
-	    <input type=text style='left:20px;' id=input />
-	    <div id=result >
-	    </div>
-	    <input type=button id=calculate value=calculate style='left:20px;' />
-	</div>
+
+<!-- Calendly badge widget end -->
+
+  <!-- calculator begin -->
+	<form>
+  Gardening:<br>
+  <input id="g-25" type="number" min="0" name="Gardening" value="">
+  <br>
+  Yardwork:<br>
+  <input id="y-45" type="number" min="0" name="Yardwork" value="">
+  <br>
+   Landscaping:<br>
+  <input id="l-65" type="number" min="0" name="Landscaping" value="0">
+</form>
+
+
+
   <!-- calculator end -->
 
-  <footer class ="foot-contact"> <a href="mailto:dirtygirlz.pnw@gmail.com">EMAIL DIRTY GIRLZ </footer>
+<footer class ="foot-contact"> <a href="mailto:dirtygirlz.pnw@gmail.com">EMAIL DIRTY GIRLZ </footer>
 </body>
+<script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>
+<script type="text/javascript">Calendly.initBadgeWidget({url: 'https://calendly.com/dirtygirlz', text: 'Schedule time with us', color: '#ffffff', branding: false});</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="app.js"></script>
 </html>
