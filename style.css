@@ -1,9 +1,13 @@
 /*html, body, article, span, applet, object, h2, h3, h4, h5, h6, p, a, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video */
 
+
 header {
 	margin: 3%;
 	padding: 0;
 
+h1 {
+	margin: 0;
+	padding: 0;
 }
 
 a {
@@ -29,22 +33,40 @@ h1 {
 	float: right;
 	font-size: 40px;
 	text-align: left;
-	/*font-family: 'Rubik Mono One', sans-serif;*/
 	font-family: 'Permanent Marker', cursive;
-	margin-right: 150px;
-	margin-top: 48px;
+	margin-right: 350px;
+	margin-top: 40px;
+	margin-left: 5%;
 }
 
-p {
-	padding-top: 150px;
+#box-title {
+	font-family: 'Permanent Marker', cursive;
+}
+
+#main_container {
+	align-items: center;
+	margin-left: 10%;
+}
+
+p.clear {
+  clear: both;
 	display: block;
+	float: clear;
 	font-family: georgia;
-	margin: 3%;
+	margin: 5%;
 }
 
-hr {
-	border-top: dashed border-top: #ffeb3b;
+input[type=number], select {
+    width: 30%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+		align-items: right;
 }
+
 
 #main-container {
 	position: relative;
@@ -57,22 +79,33 @@ hr {
   transform: scale(1.1);
 }
 
+/*.calendly {
+	margin-bottom: 50%;
+}*/
+
+
 .floated_box {
 		align-items: center;
 		padding: 10px;
     font-family: monospace;
-    color: #ff6600 text-decoration: none !important;
+		font-size: 14px;
+		text-decoration: none !important;
     float: left;
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     border: .5px dashed #FFC300;
     margin: 20px;
+
 
 		max-width: 100%;
 	 -moz-transition: all 0.3s;
 	 -webkit-transition: all 0.3s;
 	 transition: all 0.3s;
 	}
+
+		box-shadow: 5px 5px 5px #ffffcc;
+}
+
 
 form {
 	width: 250px;
@@ -116,9 +149,9 @@ a:hover {
 /*<!-- Bee Loader A PEN BY Pedro Lobato -->*/
 
 .container {
-	padding: 5%;
+	margin-left: 5%;
+	margin-top: 5%;
 	display: inline-block;
-	/*position: absolute;*/
 }
 
 .bee {
