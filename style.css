@@ -22,7 +22,7 @@ a {
 	font: inherit;
 	vertical-align: baseline;
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 body {
@@ -58,11 +58,11 @@ hr {
 		margin: 5%;
 	}
 
-#main-container:hover {
+/*#main-container:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-}
+}*/
 
 #box-title {
 	font-family: 'Permanent Marker', cursive;
@@ -70,26 +70,32 @@ hr {
 
 .floated_box {
 		margin: auto;
-		width: 60%;
 		padding: 10px;
     font-family: monospace;
     color: #ff6600 text-decoration: none !important;
     float: left;
     width: 200px;
     height: 180px;
-    border: .5px dashed #FFC300;
+    border: 2px dashed #996600;
     margin: 20px;
 		max-width: 100%;
-	 /*-moz-transition: all 0.3s;
-	 -webkit-transition: all 0.3s;*/
-	 transition: all 0.7s;
 	}
 
 form {
 	width: 250px;
 	height: 250px;
-	border: black;
 	margin: 3%;
+}
+
+input {
+  width : 100px;
+	/*position: relative;*/
+  margin: 0;
+	display: inline-block;
+float: right;
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+     -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+          box-sizing: border-box;
 }
 
 #total {
@@ -105,27 +111,36 @@ form {
 }
 
 #result {
-	width: 220px;
+	width: 150px;
 	height: 20px;
 	background-color: yellow;
 }
 
 .foot-contact {
-	position: fixed;
 	width: 100%;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	padding: 1rem;
-	width: 100%;
-	height: 400px;
-	background-image: url(your-path-here.jpg);
-	background-size: 100% 100%;
+	margin-top: 100px;
 	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 30px;
+}
+
+/*​div {
+    width: 100%;
+    height: 400px;
+    background-image: url(your-path-here.jpg);
+    background-size: 100% 100%;
+}​*/
+
+.sprite {
+	background: url('assets/Artboard54.png') no-repeat -27px -43px;
+	width: 100%;
+	height: 155px;
+	position:fixed;
+ 	bottom:0px;
 }
 
 a:hover {
-	background-color: yellow;
+	color: #FFEA3B;
 }
 
 /*<!-- Bee Loader A PEN BY Pedro Lobato -->*/
