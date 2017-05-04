@@ -54,13 +54,12 @@ h1 {
 #box-title {
 	font-family: 'Permanent Marker', cursive;
 }
-/*
+
 #main-container {
 	align-items: center;
 	margin-left: 10%;
 	background-color: none;
-  margin-bottom: 200px;
-}*/
+}
 
 p.clear {
 	clear: both;
@@ -84,11 +83,6 @@ p.clear {
 	border: 1px solid #ffeb3b;
   background-color: #fafafa;
   margin-top: 5px;
-}
-
-#main-container {
-	margin-top: 20px;
-	margin-left: 120px
 }
 
 #box-title {
