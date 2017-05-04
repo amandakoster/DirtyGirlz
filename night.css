@@ -13,12 +13,17 @@ padding: 0;
     background-image: url("bgdesert.jpg");
 }*/
 
-#grad {
-    background: blue; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(red, yellow); /* Standard syntax */
+.gradient {
+  /* can be treated like a fallback */
+  background-color: red;
+
+  /* will be "on top", if browser supports it */
+  background-image: linear-gradient(red, orange);
+
+  /* these will reset other properties, like background-position, but it does know what you mean */
+  background: red;
+  background: linear-gradient(red, orange);
+
 }
 
  header {
