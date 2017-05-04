@@ -9,9 +9,22 @@ margin: 0;
 padding: 0;
 }*/
 
-.day { background: url('http://imgs.mi9.com/uploads/photography/4480/white-clouds-and-blue-sky_1600x1200_78556.jpg'); }
-.sunset { background: url('http://www.naturewallpaper.eu/desktopwallpapers/sky/1366x768/after-sunset-sky-1366x768.jpg'); }
-.night { background: url('http://images2.layoutsparks.com/1/159946/moon-girl-night-sky.jpg'); }
+/*body {
+    background-image: url("bgdesert.jpg");
+}*/
+
+.gradient {
+  /* can be treated like a fallback */
+  background-color: red;
+
+  /* will be "on top", if browser supports it */
+  background-image: linear-gradient(red, orange);
+
+  /* these will reset other properties, like background-position, but it does know what you mean */
+  background: red;
+  background: linear-gradient(red, orange);
+
+}
 
  header {
 margin: 3%;
@@ -161,21 +174,6 @@ form {
 	height: 20px;
 	background-color: yellow;
 }
-/*.foot-contact {
-width: 100%;
-margin-top: 100px;
-margin-right: 200px;
-text-align: right;
-font-family: 'Permanent Marker', cursive;
-font-size: 30px;
-}*/
-/*​div {
-width: 100%;
-height: 400px;
-background-image: url(your-path-here.jpg);
-background-size: 100% 100%;
-}​*/
-
 .sprite {
 	background: url('assets/Artboard54.png') no-repeat -27px -43px;
 	width: 100%;
