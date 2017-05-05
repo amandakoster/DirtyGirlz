@@ -1,4 +1,6 @@
-/*html, body, article, span, applet, object, h2, h3, h4, h5, h6, p, a, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video */
+html, body {
+    height: 100%;
+}
 
 .day {
 	background: url('assets/cloud-833378.svg');
@@ -13,10 +15,6 @@
 	background: url('assets/night.png');
 	color: white;
 }
-
-/*header {
-	margin: 3%;
-}*/
 
 a {
 	margin: 0;
@@ -36,15 +34,18 @@ body {
 	text-decoration: none;
 }
 
+header {
+	margin: 5%
+}
+
 h1 {
 	display: inline-block;
 	float: left;
-	font-size: 40px;
+	font-size: 50px;
 	text-align: left;
 	font-family: 'Permanent Marker', cursive;
-	/*margin-right: 350px;*/
-	margin-top: 30px;
-	margin-left: 5%;
+	margin-top: 35px;
+	margin-left: 3%;
 }
 
 #box-title {
@@ -54,16 +55,12 @@ h1 {
 #main-container {
 	align-items: center;
 	margin-left: 10%;
-	margin-bottom: 290px;
 }
 
 p.clear {
 	font-family: georgia;
 	margin: 5%;
-}
-
-#services {
-	/*position: relative;*/
+	font-size: 18px;
 }
 
 #g-25, #y-45, #l-65, #total {
@@ -90,7 +87,7 @@ p.clear {
 	float: left;
 	width: 220px;
 	height: 180px;
-	margin: 20px;
+	margin: 10px;
 	max-width: 100%;
 }
 
@@ -107,14 +104,24 @@ p.clear {
 	clear: both;
 }
 
-/*.foot-contact {
-width: 100%;
-margin-top: 100px;
-margin-right: 200px;
-text-align: right;
-font-family: 'Permanent Marker', cursive;
-font-size: 30px;
-}*/
+.wrap {
+    height: auto;
+    margin: 0 auto -80px; /* footer height + space */
+    min-height: 100%;
+    padding: 0 0 80px; /* footer height + space */*/
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.footer {
+    height: 60px;
+    display: block;
+    margin-top: 80px;
+    /*box-sizing: border-box;*/
+    position: relative;
+		text-align: center;
+    width: 100%;
+}
 
 .sprite {
 	background: url('assets/Artboard54.png') no-repeat -27px -43px;
