@@ -2,6 +2,7 @@
 
 .day {
 	background: url('assets/cloud-833378.svg');
+	color: black;
 }
 
 .sunset {
@@ -10,17 +11,12 @@
 
 .night {
 	background: url('assets/night.png');
+	color: white;
 }
 
-header {
+/*header {
 	margin: 3%;
-	padding: 0;
-}
-
-h1 {
-	margin: 0;
-	padding: 0;
-}
+}*/
 
 a {
 	margin: 0;
@@ -46,8 +42,8 @@ h1 {
 	font-size: 40px;
 	text-align: left;
 	font-family: 'Permanent Marker', cursive;
-	margin-right: 350px;
-	margin-top: 40px;
+	/*margin-right: 350px;*/
+	margin-top: 30px;
 	margin-left: 5%;
 }
 
@@ -58,20 +54,16 @@ h1 {
 #main-container {
 	align-items: center;
 	margin-left: 10%;
-	background-color: none;
+	margin-bottom: 290px;
 }
 
 p.clear {
-	clear: both;
-	display: block;
-	float: clear;
 	font-family: georgia;
 	margin: 5%;
 }
 
 #services {
-	position: relative;
-	margin: 20%;
+	/*position: relative;*/
 }
 
 #g-25, #y-45, #l-65, #total {
@@ -99,13 +91,12 @@ p.clear {
 	width: 220px;
 	height: 180px;
 	margin: 20px;
-
 	max-width: 100%;
 }
 
 .calendly-badge-widget {
 	right: auto !important;
-	left: 50%!important;
+	left: 50% !important;
 }
 
 .left {
@@ -130,8 +121,9 @@ font-size: 30px;
 	width: 100%;
 	height: 155px;
 	position: fixed;
-	bottom: 0px;
-	margin-top: 300px;
+	right: 0;
+	bottom: 0;
+	left: 0;
 }
 
 /*a:hover {
@@ -145,6 +137,7 @@ font-size: 30px;
 	margin-left: 5%;
 	margin-top: 5%;
 	display: inline-block;
+	float: left;
 }
 
 .bee {
